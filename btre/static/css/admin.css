@@ -22,7 +22,9 @@ div.breadcrumbs a {
   color: #10284e;
 }
 
-.module caption{
+.module h2, 
+.module caption, 
+.inline-group h2{
   background: #30CAA0;
   color: #10284e;
 }
@@ -41,3 +43,9 @@ input[type=submit].default,
   color: #10284e;
 }
 
+input[type=submit].default:hover, 
+.submit-row input.default:hover
+{
+  background: rgb(22, 95, 76);
+  color:  white;
+}
