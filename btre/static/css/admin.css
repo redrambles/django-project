@@ -49,3 +49,8 @@ input[type=submit].default:hover,
   background: rgb(22, 95, 76);
   color:  white;
 }
+
+.app-listings #content-main table#result_list td {
+  padding: 12px;
+  font-size: 14px;
+}
