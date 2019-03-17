@@ -19,6 +19,10 @@ img {
   border-top: 1px solid rgba(0, 0, 0, 0.125);
 }
 
+#message {
+  margin-top: 20px;
+}
+
 #showcase {
   background: url(../img/showcase.jpg) no-repeat top center fixed/cover;
   position: relative;
