@@ -1,6 +1,8 @@
 {% extends 'base.html' %}
 {% load humanize %}
 
+{% block title %} | {{ listing.title }}{% endblock %}
+
 {% block content %}
 
   <section id="showcase-inner" class="py-5 text-white">
@@ -32,10 +34,11 @@
     </div>
   </section>
 
+  {% include 'partials/_alerts.html' %}
   <!-- Listing -->
   <section id="listing" class="py-4">
     <div class="container">
-      <a href="{% url 'listings' %}l" class="btn btn-light mb-4">Back To Listings</a>
+      <a href="{% url 'listings' %}" class="btn btn-light mb-4">Back To Listings</a>
       <div class="row">
         <div class="col-md-9">
           <!-- Home Main Image -->
